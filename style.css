@@ -1,0 +1,86 @@
+/* Reset some default margins */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #000;
+}
+
+/* Header styling */
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+}
+
+/* Intro section */
+.intro {
+    background: #eeeeee;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video-container {
+    flex: 1 1 300px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.intro-text {
+    flex: 2 1 300px;
+}
+
+.intro-text h2 {
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.intro-text a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+/* Logos section */
+.logos {
+    background: #c62828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.logos img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Panda section */
+.panda img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
